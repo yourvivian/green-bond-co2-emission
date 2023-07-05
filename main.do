@@ -2,7 +2,7 @@ clear all
 set more off
 
 * CHANGE THE FILEPATH
-cd "/Users/viviannguyen/Downloads/sugardaddydata"
+cd "/Users/viviannguyen/Downloads/data"
 
 * Loop to merge all the green bonds data
 import delimited "bonds2015.csv", varnames(1) rowrange(4) case(lower) clear
@@ -53,7 +53,7 @@ drop min_val max_val mean_val median_val
 
 
 * Import and clean data of co2
-import delimited "/Users/viviannguyen/Downloads/sugardaddydata/emissions.csv", varnames(1) clear
+import delimited "/Users/viviannguyen/Downloads/data/emissions.csv", varnames(1) clear
 drop substance edgarcountrycode
 drop v4-v29 
 rename v30 co2_2016
@@ -88,7 +88,7 @@ However, in other years (e.g., 2019, 2020, and 2021), the relationship is not st
 
 
 * Run regression on bondsval and co2 emission of each year, this time accounting for GDP
-import excel "/Users/viviannguyen/Downloads/sugardaddydata/gdp.xls", sheet("Data") cellrange(A4:BO270) firstrow clear
+import excel "/Users/viviannguyen/Downloads/data/gdp.xls", sheet("Data") cellrange(A4:BO270) firstrow clear
 rename CountryName country
 replace country = upper(country)
 rename BI gdp_2016
