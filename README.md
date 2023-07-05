@@ -20,7 +20,7 @@ Countries with larger GDPs tend to invest more in green bonds. This suggests tha
 ## Research Design
 The following is the regression model:
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=bond_%7Bc%7D%20%3D%20%5Calpha%20%20%2B%20%5Cbeta%20_%7Bc%7D%5Csum_%7Bc%5Cin%20C%7D%5E%7B%7DCOUNTRY_%7Bc%7D%2B%5Cdelta%20%20%5Ccdot%20emissions%2B%5Ctheta%20%20%5Ccdot%20GDP%2B%5Cepsilon&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="bond_{c} = \alpha  + \beta _{c}\sum_{c\in C}^{}COUNTRY_{c}+\delta  \cdot emissions+\theta  \cdot GDP+\epsilon" width="487" height="40" />
+![func](graph/func.jpeg)
 
 where C is the set of countries including Australia, Brazil, Canada, China, Colombia, Finland, Germany, India, Italy, Japan, Netherlands, New Zealand, Norway, Philippines, Spain, Sweden, Switzerland, and the United States. The model regresses bond, the value of Green Bonds, against emissions - the level of Carbon Emissions.
 
