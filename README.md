@@ -1,8 +1,6 @@
 # Green Bonds and CO2 emissions
 
-Diliara Sadykova, Van Nguyen, Phuoc Nguyen-Cuu, Omna Berhanu, Shirley Jiang
-
-Our investigation aimed to explore financial instruments that quantify a country's investment in sustainable assets. Specifically, we examined the correlation between a country's carbon dioxide emissions and its investment in green bonds, while considering GDP as a factor.
+This investigation aimed to explore financial instruments that quantify a country's investment in sustainable assets. Specifically, we examined the correlation between a country's carbon dioxide emissions and its investment in green bonds, while considering GDP as a factor.
 
 ## What are Green Bonds?
 Bonds are debt securities that borrowers and investors utilize to raise funds, exchanging them for regular interest payments over the bond's lifespan. Green bonds, on the other hand, distinguish themselves from regular bonds by directing funds toward projects dedicated to sustainable climate and environmental initiatives. The World Bank issued the first green bonds in 2008 in response to a 2007 IPCC report linking human activity to climate change. However, their prominence surged in 2013 upon their introduction to the global financial markets. Today, these bonds are widely recognized for mobilizing capital for climate action and driving innovation.
